@@ -4,14 +4,14 @@ class Account:
         self.account = acc
 
     def debit(self, amount):
-        # self.balance = self.balance - amount
+        self.balance = self.balance - amount
         print("Rs.", amount, "was debited.")
-        # print("Available balance:",self.get_balanca())
+        print("Available balance:",self.get_balanca())
 
     def credit(self, amount):
-        # self.balance = self.balance + amount
+        self.balance = self.balance + amount
         print("Rs.", amount, "was credited.")
-        # print("Available balance:",self.get_balanca())
+        print("Available balance:",self.get_balanca())
 
     def get_balanca(self):
         return self.balance
